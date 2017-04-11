@@ -1,3 +1,6 @@
+// Uvod u umjetnu inteligenciju - 2. labos: PDA.
+// Kristijan Burnik
+// -----------------------------------------------------------------------------
 // Trenutni nedostaci
 // Nema provjere ispravnosti izraza:
 // * Program se ruši ako je stog prazan i pokuša se skidati sa stoga.
