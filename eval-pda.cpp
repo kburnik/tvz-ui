@@ -63,14 +63,13 @@ class Eval {
         push(compute(token, first));
       // Simboli.
       } else {
-         push(boolToString(_facts.count(token)));
+        push(boolToString(_facts.count(token)));
       }
     }
     return stringToBool(pop());
    }
 
  private:
-
   // Čisti stog.
   void clear() {
     while(!_stack.empty()) _stack.pop();
